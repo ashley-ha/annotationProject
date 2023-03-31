@@ -1,5 +1,5 @@
 ## Data
-Your final labeled data should contain at least 500 adjudicated documents.  Here's how that process should go.
+Our final labeled data will contain at least 500 adjudicated documents.  Here's how our process will go:
 
 - Let's say you have 500 documents. Separate them into two batches: "exploration" (250 documents) and "evaluation" (250 documents).
 - At the beginning of the project, use the exploration batch to iteratively create your annotation guidelines: all three group members should annotate some documents in this collection, and then compare where you disagree. Make decisions on your consensus for these disagreements and note them in the guidelines.  Iterate on this process (as described in Pustejovsky and Stubbs, ch. 6Links to an external site.) until you feel that the guidelines are solid.  Don't consider any documents in the "evaluation" batch in this phase.
@@ -13,7 +13,7 @@ Your final labeled data should contain at least 500 adjudicated documents.  Here
   - Document N, Leia + Han separate annotations; Luke adjudicates any disagreement to produce final version
 
 ## Guidelines
-Your annotation guidelines should be sufficiently detailed so that a third party will be able to produce your judgments on a set of new documents that you have not seen.  These guidelines should be at least two pages long (and potentially longer depending on the complexity of your task and the experience you had during the exploration phase making consensus decisions on any disagreements.  Keep in mind two things:
+Our annotation guidelines should be sufficiently detailed so that a third party will be able to produce our judgments on a set of new documents that you have not seen.  These guidelines should be at least two pages long (and potentially longer depending on the complexity of your task and the experience you had during the exploration phase making consensus decisions on any disagreements.  Keep in mind two things:
 - For deliverable AP3, another group will be using only your guidelines to make judgments about your task, so be sure it contains enough information for them to do so.
 - In the bigger picture, if you choose to publish your dataset on Github after class, people will look to your annotation guidelines to understand the task and the exact criteria for the different categories, so be sure it is polished.
 - Here are some sample annotation guidelines so you can see what they look when created by NLP researchers.  While these of course are very detailed, they should give you a sense of the kind of specificity that such guidelines can contain.
