@@ -1,46 +1,48 @@
 ## Data
 Your final labeled data should contain at least 500 adjudicated documents.  Here's how that process should go.
-Let's say you have 500 documents. Separate them into two batches: "exploration" (250 documents) and "evaluation" (250 documents).
-At the beginning of the project, use the exploration batch to iteratively create your annotation guidelines: all three group members should annotate some documents in this collection, and then compare where you disagree. Make decisions on your consensus for these disagreements and note them in the guidelines.  Iterate on this process (as described in Pustejovsky and Stubbs, ch. 6Links to an external site.) until you feel that the guidelines are solid.  Don't consider any documents in the "evaluation" batch in this phase.
-Once the guidelines are finalized, two annotators should each independently annotate all of the documents in the "evaluation" batch -- importantly, without talking to each other or discussing your annotations at this stage. Annotations can be carried out as easily as in Excel (see "Deliverables" below for instructions on formatting). Only use the decisions you've codified in the annotation guidelines. We'll calculate the inter-annotator agreement using these two independent annotations.  Remember, the IAA rate here is giving a sense of the level of agreement two random annotators in the future will have on this task (which we'll verify in AP3), so it's important that you not collaborate on your annotations at this stage or your IAA will be artificially inflated.
-Using those same guidelines, two annotators should each go back and independently annotate all of the documents in the "exploration" batch.  We don't want to use this data for calculating IAA (since you've been collaborating on it already to decide on the final guidelines), but you still want to have it annotated to create the size of your dataset for training and evaluating models later.
-At this point, you now have two independent annotations for all the documents in the "exploration" and "evaluation" set.  You will naturally have disagreements at this point.  The third group member should now act as an adjudicator for those disagreements to produce a single, final version of the labeled data.
-In terms of the distribution of labor, there are several options. If your group contains Luke, Han and Leia, this can either a.) involve Luke and Han creating the two separate independent annotations for all documents, with Leia acting as adjudicator for all of them; or b.) mixing it up by document, as in the following:
-Document 1, Luke + Leia separate annotations; Han adjudicates any disagreement to produce final version
-Document 2, Luke + Han separate annotations; Leia adjudicates any disagreement to produce final version
-...
-Document N, Leia + Han separate annotations; Luke adjudicates any disagreement to produce final version
+
+- Let's say you have 500 documents. Separate them into two batches: "exploration" (250 documents) and "evaluation" (250 documents).
+- At the beginning of the project, use the exploration batch to iteratively create your annotation guidelines: all three group members should annotate some documents in this collection, and then compare where you disagree. Make decisions on your consensus for these disagreements and note them in the guidelines.  Iterate on this process (as described in Pustejovsky and Stubbs, ch. 6Links to an external site.) until you feel that the guidelines are solid.  Don't consider any documents in the "evaluation" batch in this phase.
+- Once the guidelines are finalized, two annotators should each independently annotate all of the documents in the "evaluation" batch -- importantly, without talking to each other or discussing your annotations at this stage. Annotations can be carried out as easily as in Excel (see "Deliverables" below for instructions on formatting). Only use the decisions you've codified in the annotation guidelines. We'll calculate the inter-annotator agreement using these two independent annotations.  Remember, the IAA rate here is giving a sense of the level of agreement two random annotators in the future will have on this task (which we'll verify in AP3), so it's important that you not collaborate on your annotations at this stage or your IAA will be artificially inflated.
+- Using those same guidelines, two annotators should each go back and independently annotate all of the documents in the "exploration" batch.  We don't want to use this data for calculating IAA (since you've been collaborating on it already to decide on the final guidelines), but you still want to have it annotated to create the size of your dataset for training and evaluating models later.
+- At this point, you now have two independent annotations for all the documents in the "exploration" and "evaluation" set.  You will naturally have disagreements at this point.  The third group member should now act as an adjudicator for those disagreements to produce a single, final version of the labeled data.
+- In terms of the distribution of labor, there are several options. If your group contains Luke, Han and Leia, this can either a.) involve Luke and Han creating the two separate independent annotations for all documents, with Leia acting as adjudicator for all of them; or b.) mixing it up by document, as in the following:
+  - Document 1, Luke + Leia separate annotations; Han adjudicates any disagreement to produce final version
+  - Document 2, Luke + Han separate annotations; Leia adjudicates any disagreement to produce final version
+  - ...
+  - Document N, Leia + Han separate annotations; Luke adjudicates any disagreement to produce final version
 
 ## Guidelines
 Your annotation guidelines should be sufficiently detailed so that a third party will be able to produce your judgments on a set of new documents that you have not seen.  These guidelines should be at least two pages long (and potentially longer depending on the complexity of your task and the experience you had during the exploration phase making consensus decisions on any disagreements.  Keep in mind two things:
-For deliverable AP3, another group will be using only your guidelines to make judgments about your task, so be sure it contains enough information for them to do so.
-In the bigger picture, if you choose to publish your dataset on Github after class, people will look to your annotation guidelines to understand the task and the exact criteria for the different categories, so be sure it is polished.
-Here are some sample annotation guidelines so you can see what they look when created by NLP researchers.  While these of course are very detailed, they should give you a sense of the kind of specificity that such guidelines can contain.
-Coreference (Ontonotes): https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-coreference-guidelines.pdfLinks to an external site.
-Entity tagging (ACE): https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v5.6.6.pdfLinks to an external site.
-Discourse (PDTB): https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdfLinks to an external site.
-Aspect-based sentiment analysis (SemEval 2014 4): https://alt.qcri.org/semeval2014/task4/data/uploads/semeval14_absa_annotationguidelines.pdfLinks to an external site.
+- For deliverable AP3, another group will be using only your guidelines to make judgments about your task, so be sure it contains enough information for them to do so.
+- In the bigger picture, if you choose to publish your dataset on Github after class, people will look to your annotation guidelines to understand the task and the exact criteria for the different categories, so be sure it is polished.
+- Here are some sample annotation guidelines so you can see what they look when created by NLP researchers.  While these of course are very detailed, they should give you a sense of the kind of specificity that such guidelines can contain.
+- Coreference (Ontonotes): https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-coreference-guidelines.pdfLinks to an external site.
+- Entity tagging (ACE): https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-entities-guidelines-v5.6.6.pdfLinks to an external site.
+- Discourse (PDTB): https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdfLinks to an external site.
+- Aspect-based sentiment analysis (SemEval 2014 4): https://alt.qcri.org/semeval2014/task4/data/uploads/semeval14_absa_annotationguidelines.pdfLinks to an external site.
 Contextual abuse: bCourses
 
 ## Deliverables
 For AP2, you will turn in:
 - Your data with 500 adjudicated labels.  Name this "adjudicated.txt".  This data should have four tab-separated columns:
-- data point ID (a unique identifier)
-- the word "adjudicated"
-- the label
-- the original text (not tokenized)
+  - data point ID (a unique identifier)
+  - the word "adjudicated"
+  - the label
+  - the original text (not tokenized)
 - Your annotation guidelines.  Name this "guidelines.pdf"
 - Your individual annotations of the "evaluation" batch, which should include roughly 250 labels per annotator if using option a. above (Luke and Han annotate everything) or 167 labels per annotator if using option b (Luke, Han and Leia alternate being primary annotators per document).  Name this "individual_annotations.txt". This data should have four tab-separated columns:
-- data point ID (a unique identifier)
-- the annotator ID (e.g., "dbamman")
-- the label
-- the original text (not tokenized)
+  - data point ID (a unique identifier)
+  - the annotator ID (e.g., "dbamman")
+  - the label
+  - the original text (not tokenized)
 
-You're not expected to use any specialized software to carry out your annotations -- it could be done easily in Excel or Google Sheets.
-Annotators could, for example, import their documents into Google Sheets, where one document takes one row, and the column your documents are in would be your "original text" column. Insert three columns left for "data point ID", "annotator ID", and "label".
-They could then export their annotation as Tab Separated Values (tsv.).
-Remember that your deliverables should have the file extension .txt, not .tsv, so rename your files as necessary.
+- You're not expected to use any specialized software to carry out your annotations -- it could be done easily in Excel or Google Sheets.
+  - Annotators could, for example, import their documents into Google Sheets, where one document takes one row, and the column your documents are in would be your "original text" column. Insert three columns left for "data point ID", "annotator ID", and "label".
+  - They could then export their annotation as Tab Separated Values (tsv.).
+  - Remember that your deliverables should have the file extension .txt, not .tsv, so rename your files as necessary.
+  - 
 Note that each data point ID in this file should have 2 rows corresponding to the two separate annotations by different annotator IDs. See AP/sample_individual_annotations.txtLinks to an external site. in the nlp23 Github repo for an example.
 
-The output of AP/Data Validator.ipynbLinks to an external site. (from the nlp23 Github repo) on your complete data (this checks to make sure all of the data files you submit are in the proper format).  After changing the paths to point to your data, be sure all cells execute successfully.
+- The output of AP/Data Validator.ipynbLinks to an external site. (from the nlp23 Github repo) on your complete data (this checks to make sure all of the data files you submit are in the proper format).  After changing the paths to point to your data, be sure all cells execute successfully.
 Note again that slip days cannot be used for annotation project deliverables, so be sure to get this homework in on time!  (And note that you should not share your annotated data with other students outside of your group or post it in any public place yet; treat that as your group's own private homework submission through the end of AP3.)
