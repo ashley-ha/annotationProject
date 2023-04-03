@@ -13,10 +13,10 @@ For a given target entity, the task of the annotator is to identify the followin
 
 For each type of spoiler, we will identity specific information to determine the severity of the spoiler, if any:
 
-### Terms
+#### <u> Terms </u>
 We identity specific terms that could correspond to a movie review containing a major, minor or no spoiler. 
 
-## 2. Annotation Guidelines for Terms
+## 2. General Annotation Guidelines for Terms
 **What terms in the movie review should be annotated as terms?**
 
 1. Verb phrases that explicitly mention terms associated with spoilers 
@@ -29,6 +29,7 @@ Examples include:
 - It was incredibly **shocking** when I found out in the next episode that character A was actually alive afterall!
 - The most **jaw-dropping** moment of the second season was when character A and character B died together. It was so **emotional** for me to watch 
 
+Some terms to consider for our annotation guidelines:
 "ending"
 "twist"
 "surprise"
@@ -62,3 +63,15 @@ Examples include:
 "ending scene"
 "final showdown"
 "major plot point"
+
+## 3. Annotation Guidelines for **Major Spoilers**
+**What constitutes a movie review to be a major spoiler?** 
+Our group has decided to classify a review to contain major spoilers that meet the following criteria:
+1. A character(s) dying
+2. Revealing a major plot twist by giving away explicit details (i.e something happening to or by the characters, especially main characters)
+
+
+## 4. Annotation Guidelines for **Minor Spoilers**
+**What constitutes a movie review to be a major spoiler?** 
+1. Revealing information about the movie that was not previously revealed in the movie trailer or movie description
+2. etc
