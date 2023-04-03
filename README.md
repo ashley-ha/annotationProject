@@ -1,4 +1,4 @@
-# annotationProject
+# Annotation Project (2023)
 ## Does this movie review contain a spoiler? 
 Natural Language Processing - Annotation Project 
 
