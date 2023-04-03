@@ -1,0 +1,13 @@
+# Annotation Guidelines
+
+## 1. Introduction
+The purpose of this annotation project is to determine whether or not a movie review contains a spoiler or not. We are using user reviews from IMDB from the following movies:
+- Harry Potter and the Sorcerer's Stone (2001)
+- Star Wars: The Force Awakens (2015)
+- Batman Begins (2005)
+- 
+For a given target entity, the task of the annotator is to identify the following:
+1. Major Spoiler 
+2. Minor Spoiler
+3. No Spoiler
+
