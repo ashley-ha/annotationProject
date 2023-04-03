@@ -76,4 +76,26 @@ Our group has decided to classify a review to contain major spoilers that meet t
 ## 4. Annotation Guidelines for **Minor Spoilers**
 **What constitutes a movie review to be a major spoiler?** 
 1. Revealing information about the movie that was not previously revealed in the movie trailer or movie description
-2. etc
+2. etc (need to finish these)
+
+## Annotation Rating Guidelines
+Our annotations are rated from 1 through 3 with 3 being the least likely to contain a spoiler, i.e no spoiler, and 1 being mostly likely to contain a major spoiler. 
+
+### Rating 1:
+**Description for a rating of 1**: This movie review contains major spoilers.
+**Examples**:
+- "I couldnt believe when the main character died"
+- "When they ran away together, that was a plot twist noone saw coming!"
+
+### Rating 2:
+**Description for rating of 2**: this movie review contains minor spoilers.
+**Examples**:
+- "Is it just me or does the set up of the ending seem to hint at something happening to character A in the next movie?"
+- The general premise of the movie revealed, possibly more than what was shown in the movie trailer
+
+### Rating 3: 
+**Description for rating of 3**: This movie review contains no spoilers. 
+** Examples**:
+- I loved this movie!
+- This movie sucked
+- I can't wait for the next movie to come out
