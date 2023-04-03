@@ -5,9 +5,60 @@ The purpose of this annotation project is to determine whether or not a movie re
 - Harry Potter and the Sorcerer's Stone (2001)
 - Star Wars: The Force Awakens (2015)
 - Batman Begins (2005)
-- 
+
 For a given target entity, the task of the annotator is to identify the following:
 1. Major Spoiler 
 2. Minor Spoiler
 3. No Spoiler
 
+For each type of spoiler, we will identity specific information to determine the severity of the spoiler, if any:
+
+### Terms
+We identity specific terms that could correspond to a movie review containing a major, minor or no spoiler. 
+
+## 2. Annotation Guidelines for Terms
+**What terms in the movie review should be annotated as terms?**
+
+1. Verb phrases that explicitly mention terms associated with spoilers 
+Examples include:
+- When character A was **killed** in the last episode, my heart sank.
+- I was shocked when character B was **betrayed** by character A!
+
+2. Adjectives that describe terms associated with spoiler
+Examples include:
+- It was incredibly **shocking** when I found out in the next episode that character A was actually alive afterall!
+- The most **jaw-dropping** moment of the second season was when character A and character B died together. It was so **emotional** for me to watch 
+
+"ending"
+"twist"
+"surprise"
+"reveal"
+"tragic"
+"plot"
+"spoiler"
+"shocking"
+"unexpected"
+"climax"
+"resolution"
+"major event"
+"key moment"
+"biggest surprise"
+"final scene"
+"turning point"
+"death"
+"killed"
+"revealed"
+"unveiled"
+"explained"
+"unexpectedly"
+"betrayal"
+"backstory"
+"flashback"
+"foreshadowing"
+"subversion"
+"surprising turn"
+"major twist"
+"final act"
+"ending scene"
+"final showdown"
+"major plot point"
