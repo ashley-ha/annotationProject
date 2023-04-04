@@ -72,6 +72,7 @@ Our group has decided to classify a review to contain major spoilers that meet t
 1. A character(s) dying
 2. Revealing a major plot twist by giving away explicit details (i.e something happening to or by the characters, especially main characters)
 3. Mention of a character NOT revealed in the movie trailer
+4. Mention of special cameos from previous films/series
 
 
 ## 4. Annotation Guidelines for **Minor Spoilers**
