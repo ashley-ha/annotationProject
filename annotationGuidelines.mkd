@@ -12,10 +12,10 @@ For a given target entity, the task of the annotator is to identify the followin
 2. Minor Spoiler
 3. No Spoiler
 
-For each type of spoiler, we will identity specific information to determine the severity of the spoiler, if any:
+For each type of spoiler, we will identify specific information to determine the severity of the spoiler, if any:
 
 #### <u> Terms </u>
-We identity specific terms that could correspond to a movie review containing a major, minor or no spoiler. 
+We identify specific terms that could correspond to a movie review containing a major, minor or no spoiler. 
 
 Examples include:
 
